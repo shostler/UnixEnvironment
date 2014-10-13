@@ -1,0 +1,19 @@
+########## Coding Aliases ############
+
+# intellij
+alias idea="/usr/local/idea/idea-IU-135.480/bin/idea.sh &"
+
+
+
+
+
+
+########## Navigating Aliases ############
+
+alias his=history
+
+#safety nets
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
+
