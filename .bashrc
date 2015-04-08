@@ -113,3 +113,6 @@ function _update_ps1() {
 }
 
 export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+
+export GOROOT=/usr/local/go/
+export GOPATH=/home/stuart-hostler/go/
