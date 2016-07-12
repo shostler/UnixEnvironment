@@ -1,8 +1,9 @@
 ########## Coding Aliases ############
 
 # intellij
-alias idea13="/usr/local/idea/idea-IU-135.480/bin/idea.sh &"
-alias idea="/usr/local/idea/idea-IU-141.178.9/bin/idea.sh &"
+alias idea14="/usr/local/idea/idea-IU-141.178.9/bin/idea.sh &"
+alias idea15="/usr/local/idea/idea-IU-143.382.35/bin/idea.sh &"
+alias idea="/usr/local/idea/idea-IU-143.2370.31/bin/idea.sh &"
 
 
 

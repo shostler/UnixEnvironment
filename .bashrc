@@ -116,3 +116,10 @@ export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 
 export GOROOT=/usr/local/go/
 export GOPATH=/home/stuart-hostler/go/
+
+# Tomcat 7
+export TOMCAT_HOME=/usr/local/installs/tomcat/current
+export PATH=$PATH:$TOMCAT_HOME/bin
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/home/stuart-hostler/.gvm/bin/gvm-init.sh" ]] && source "/home/stuart-hostler/.gvm/bin/gvm-init.sh"

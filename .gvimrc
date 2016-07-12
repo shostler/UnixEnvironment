@@ -70,3 +70,6 @@ syntax on
 
 "find a tags file in the current directory, or all the way up to root
 set tags=./TAGS;/
+
+"Press Shift-Space to exit insert mode
+imap <S-Space> <Esc>

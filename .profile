@@ -22,12 +22,10 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 # maven and ant stuff to path
-M2_HOME=/usr/local/apache-maven/apache-maven-3.2.1
+M2_HOME=/usr/local/installs/maven/current
 export M2_HOME
-M2=/usr/local/apache-maven/apache-maven-3.2.1/bin
-export M2
 
-MAVEN_HOME="/usr/local/apache-maven/apache-maven-3.2.1"
+MAVEN_HOME="/usr/local/installs/maven/current"
 export MAVEN_HOME
 
 MAVEN_OPTS="-Xms512m -Xmx2048m -XX:MaxPermSize=1536m -XX:ReservedCodeCacheSize=64m -XX:CompileCommand=exclude,com/infusion/databridge/MemoryRst,loadMeta -Dfile.encoding=ISO-8859-1"
@@ -37,12 +35,14 @@ ANT_HOME=/usr/local/apache-ant/apache-ant-1.9.3
 export ANT_HOME
 
 #PATH="$PATH:$JAVA_HOME/bin:$M2_HOME/bin:$ANT_HOME/bin"
-PATH="$PATH:$M2:$MAVEN_HOME/bin:$ANT_HOME/bin"
+PATH="$PATH:$MAVEN_HOME/bin:$ANT_HOME/bin"
 export PATH
-
 
 # svn things (as suggested by the "setting up a new Linux installation" article on confluence)
 SVN_HOME="https://scm.infusiontest.com/svn"
 CRM_HOME="$SVN_HOME/crmalpha"
 export SVN_HOME
 export CRM_HOME
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/home/stuart-hostler/.gvm/bin/gvm-init.sh" ]] && source "/home/stuart-hostler/.gvm/bin/gvm-init.sh"
