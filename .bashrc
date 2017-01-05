@@ -121,5 +121,10 @@ export GOPATH=/home/stuart-hostler/go/
 export TOMCAT_HOME=/usr/local/installs/tomcat/current
 export PATH=$PATH:$TOMCAT_HOME/bin
 
+export PATH=$PATH:/usr/local/android-studio/bin
+
+# configure mysql client to connect to mysql server using TCP instead of a socket
+export MYSQL_HOST=127.0.0.1
+
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/home/stuart-hostler/.gvm/bin/gvm-init.sh" ]] && source "/home/stuart-hostler/.gvm/bin/gvm-init.sh"

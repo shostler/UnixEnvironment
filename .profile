@@ -28,7 +28,8 @@ export M2_HOME
 MAVEN_HOME="/usr/local/installs/maven/current"
 export MAVEN_HOME
 
-MAVEN_OPTS="-Xms512m -Xmx2048m -XX:MaxPermSize=1536m -XX:ReservedCodeCacheSize=64m -XX:CompileCommand=exclude,com/infusion/databridge/MemoryRst,loadMeta -Dfile.encoding=ISO-8859-1"
+MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=512m -XX:CompileCommand=exclude,com/infusion/databridge/MemoryRst,loadMeta"
+#old MAVEN_OPTS="-Xms512m -Xmx2048m -XX:MaxPermSize=1536m -XX:ReservedCodeCacheSize=64m -XX:CompileCommand=exclude,com/infusion/databridge/MemoryRst,loadMeta -Dfile.encoding=ISO-8859-1"
 export MAVEN_OPTS
 
 ANT_HOME=/usr/local/apache-ant/apache-ant-1.9.3

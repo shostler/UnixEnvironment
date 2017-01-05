@@ -5,7 +5,7 @@ alias idea14="/usr/local/idea/idea-IU-141.178.9/bin/idea.sh &"
 alias idea15="/usr/local/idea/idea-IU-143.382.35/bin/idea.sh &"
 alias idea="/usr/local/idea/idea-IU-143.2370.31/bin/idea.sh &"
 
-
+alias android="/usr/local/android-studio/android-studio/bin/studio.sh &"
 
 
 ########## Navigating Aliases ############
